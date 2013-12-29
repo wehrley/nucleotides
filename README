@@ -1,0 +1,24 @@
+Given a file of nucleotides in the following format:
+GATAGGAGTAGTGAGT
+GTAGTAGAGTATGATAGTGTA
+GATTAGATGATGATG
+GATATATAGATATATTAGAT
+GATAGATAGT
+GATTAAGATATGATAGTAG
+GATTAGATAGTAGTAGT
+GTATAGATAGTAGTAGTGATGA
+GTAGATGATGATAGTAGTAGT
+GAAGTAGTGATGAGTAG
+
+For every position in the string, find the breakdown (in percentage) 
+for each symbol encountered. The goal of this exercise is to calcu-
+late the population percentages for each symbol in each position, 
+i.e.: what percentage of times do I see symbol X in position Y? From
+the example input data, we would arrive at the following percentages:
+ 
+Position: 1 (A: 0%,  C: 0%, G: 100%, T: 0%)
+Position: 2 (A: 80%, C: 0%, G: 0%,   T: 20%)
+etc.
+
+usage: 
+nucleo_summary.py './data/nucleotides.txt'
